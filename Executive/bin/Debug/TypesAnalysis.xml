@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TypesAnalysis>
+  <File xmlns="C:\Users\Saurabh Gupta\Desktop\CodeAnalyzer\Parser\IRuleandAction.cs">
+    <namespace xmlns="CodeAnalysis">
+      <interface xmlns="IAction" />
+      <class xmlns="AAction">
+        <function xmlns="display()">
+          <FunctionComplexity xmlns="3" />
+          <LinesOfCode xmlns="6" />
+        </function>
+      </class>
+      <interface xmlns="IRule" />
+      <class xmlns="ARule">
+        <function xmlns="ARule()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="4" />
+        </function>
+        <function xmlns="add()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="4" />
+        </function>
+        <function xmlns="doActions()">
+          <FunctionComplexity xmlns="2" />
+          <LinesOfCode xmlns="9" />
+        </function>
+        <function xmlns="indexOfType()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="12" />
+        </function>
+      </class>
+    </namespace>
+  </File>
+  <File xmlns="C:\Users\Saurabh Gupta\Desktop\CodeAnalyzer\Parser\Parser.cs">
+    <namespace xmlns="CodeAnalysis">
+      <class xmlns="Parser">
+        <function xmlns="Parser()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="4" />
+        </function>
+        <function xmlns="add()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="4" />
+        </function>
+        <function xmlns="parse()">
+          <FunctionComplexity xmlns="3" />
+          <LinesOfCode xmlns="12" />
+        </function>
+      </class>
+      <class xmlns="TestParser">
+        <function xmlns="ProcessCommandline()">
+          <FunctionComplexity xmlns="3" />
+          <LinesOfCode xmlns="19" />
+        </function>
+        <function xmlns="ShowCommandLine()">
+          <FunctionComplexity xmlns="2" />
+          <LinesOfCode xmlns="10" />
+        </function>
+        <function xmlns="Main()">
+          <FunctionComplexity xmlns="12" />
+          <LinesOfCode xmlns="46" />
+        </function>
+      </class>
+    </namespace>
+  </File>
+  <File xmlns="C:\Users\Saurabh Gupta\Desktop\CodeAnalyzer\Parser\RulesAndActions.cs">
+    <namespace xmlns="CodeAnalysis">
+      <class xmlns="Relationships" />
+      <class xmlns="Elem">
+        <function xmlns="ToString()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="11" />
+        </function>
+      </class>
+      <class xmlns="Repository">
+        <function xmlns="Repository()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="5" />
+        </function>
+        <function xmlns="getInstance()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="4" />
+        </function>
+      </class>
+      <class xmlns="StoreRelations">
+        <function xmlns="StoreRelations()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="4" />
+        </function>
+        <function xmlns="doAction()">
+          <FunctionComplexity xmlns="2" />
+          <LinesOfCode xmlns="10" />
+        </function>
+      </class>
+      <class xmlns="PushStack">
+        <function xmlns="PushStack()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="4" />
+        </function>
+        <function xmlns="doAction()">
+          <FunctionComplexity xmlns="8" />
+          <LinesOfCode xmlns="35" />
+        </function>
+      </class>
+      <class xmlns="PopStack">
+        <function xmlns="PopStack()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="4" />
+        </function>
+        <function xmlns="doAction()">
+          <FunctionComplexity xmlns="10" />
+          <LinesOfCode xmlns="46" />
+        </function>
+      </class>
+      <class xmlns="PrintFunction">
+        <function xmlns="PrintFunction()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="4" />
+        </function>
+        <function xmlns="display()">
+          <FunctionComplexity xmlns="3" />
+          <LinesOfCode xmlns="8" />
+        </function>
+        <function xmlns="doAction()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="4" />
+        </function>
+      </class>
+      <class xmlns="Print">
+        <function xmlns="Print()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="4" />
+        </function>
+        <function xmlns="doAction()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="5" />
+        </function>
+      </class>
+      <class xmlns="DetectNamespace">
+        <function xmlns="test()">
+          <FunctionComplexity xmlns="2" />
+          <LinesOfCode xmlns="14" />
+        </function>
+      </class>
+      <class xmlns="DetectClass">
+        <function xmlns="test()">
+          <FunctionComplexity xmlns="2" />
+          <LinesOfCode xmlns="21" />
+        </function>
+      </class>
+      <class xmlns="DetectFunction">
+        <function xmlns="isSpecialToken()">
+          <FunctionComplexity xmlns="4" />
+          <LinesOfCode xmlns="8" />
+        </function>
+        <function xmlns="test()">
+          <FunctionComplexity xmlns="3" />
+          <LinesOfCode xmlns="15" />
+        </function>
+      </class>
+      <class xmlns="DetectAnonymousScope">
+        <function xmlns="containsSpecialToken()">
+          <FunctionComplexity xmlns="5" />
+          <LinesOfCode xmlns="20" />
+        </function>
+        <function xmlns="checkForBracelessScope()">
+          <FunctionComplexity xmlns="3" />
+          <LinesOfCode xmlns="9" />
+        </function>
+        <function xmlns="test()">
+          <FunctionComplexity xmlns="5" />
+          <LinesOfCode xmlns="34" />
+        </function>
+      </class>
+      <class xmlns="DetectLeavingScope">
+        <function xmlns="test()">
+          <FunctionComplexity xmlns="2" />
+          <LinesOfCode xmlns="10" />
+        </function>
+      </class>
+      <class xmlns="CheckExistingTypes">
+        <function xmlns="checkIfTypeExists()">
+          <FunctionComplexity xmlns="3" />
+          <LinesOfCode xmlns="18" />
+        </function>
+        <function xmlns="getClass()">
+          <FunctionComplexity xmlns="3" />
+          <LinesOfCode xmlns="19" />
+        </function>
+      </class>
+      <class xmlns="DetectInheritance">
+        <function xmlns="test()">
+          <FunctionComplexity xmlns="7" />
+          <LinesOfCode xmlns="41" />
+        </function>
+      </class>
+      <class xmlns="DetectAggregation">
+        <function xmlns="test()">
+          <FunctionComplexity xmlns="4" />
+          <LinesOfCode xmlns="27" />
+        </function>
+      </class>
+      <class xmlns="DetectUsing">
+        <function xmlns="isSpecialToken()">
+          <FunctionComplexity xmlns="4" />
+          <LinesOfCode xmlns="8" />
+        </function>
+        <function xmlns="test()">
+          <FunctionComplexity xmlns="8" />
+          <LinesOfCode xmlns="40" />
+        </function>
+      </class>
+      <class xmlns="DetectComposition">
+        <function xmlns="findValType()">
+          <FunctionComplexity xmlns="3" />
+          <LinesOfCode xmlns="15" />
+        </function>
+        <function xmlns="test()">
+          <FunctionComplexity xmlns="3" />
+          <LinesOfCode xmlns="33" />
+        </function>
+      </class>
+      <class xmlns="BuildCodeAnalyzer">
+        <function xmlns="BuildCodeAnalyzer()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="4" />
+        </function>
+        <function xmlns="build()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="43" />
+        </function>
+        <function xmlns="bulidForRelations()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="50" />
+        </function>
+      </class>
+    </namespace>
+  </File>
+  <File xmlns="C:\Users\Saurabh Gupta\Desktop\CodeAnalyzer\Parser\ScopeStack.cs">
+    <namespace xmlns="CodeAnalysis">
+      <class xmlns="ScopeStack">
+        <function xmlns="push()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="4" />
+        </function>
+        <function xmlns="pop()">
+          <FunctionComplexity xmlns="2" />
+          <LinesOfCode xmlns="10" />
+        </function>
+        <function xmlns="clear()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="4" />
+        </function>
+        <function xmlns="lastPopped()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="4" />
+        </function>
+        <function xmlns="display()">
+          <FunctionComplexity xmlns="2" />
+          <LinesOfCode xmlns="7" />
+        </function>
+      </class>
+      <class xmlns="Test" />
+      <struct xmlns="Elem">
+        <function xmlns="make()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="6" />
+        </function>
+        <function xmlns="ToString()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="10" />
+        </function>
+        <function xmlns="Main()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="34" />
+        </function>
+      </struct>
+    </namespace>
+  </File>
+  <File xmlns="C:\Users\Saurabh Gupta\Desktop\CodeAnalyzer\Parser\Semi.cs">
+    <namespace xmlns="CSsemi">
+      <class xmlns="CSemiExp">
+        <function xmlns="CSemiExp()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="8" />
+        </function>
+        <function xmlns="Equals()">
+          <FunctionComplexity xmlns="4" />
+          <LinesOfCode xmlns="10" />
+        </function>
+        <function xmlns="FindFirst()">
+          <FunctionComplexity xmlns="3" />
+          <LinesOfCode xmlns="7" />
+        </function>
+        <function xmlns="FindLast()">
+          <FunctionComplexity xmlns="3" />
+          <LinesOfCode xmlns="7" />
+        </function>
+        <function xmlns="FindAllOccurances()">
+          <FunctionComplexity xmlns="3" />
+          <LinesOfCode xmlns="16" />
+        </function>
+        <function xmlns="Contains()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="4" />
+        </function>
+        <function xmlns="GetHashCode()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="4" />
+        </function>
+        <function xmlns="open()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="4" />
+        </function>
+        <function xmlns="close()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="4" />
+        </function>
+        <function xmlns="isTerminator()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="14" />
+        </function>
+        <function xmlns="switch()">
+          <FunctionComplexity xmlns="2" />
+          <LinesOfCode xmlns="11" />
+        </function>
+        <function xmlns="get()">
+          <FunctionComplexity xmlns="2" />
+          <LinesOfCode xmlns="8" />
+        </function>
+        <function xmlns="IsPunc()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="4" />
+        </function>
+        <function xmlns="IsOperatorPair()">
+          <FunctionComplexity xmlns="4" />
+          <LinesOfCode xmlns="16" />
+        </function>
+        <function xmlns="getSemi()">
+          <FunctionComplexity xmlns="7" />
+          <LinesOfCode xmlns="27" />
+        </function>
+        <function xmlns="insert()">
+          <FunctionComplexity xmlns="2" />
+          <LinesOfCode xmlns="9" />
+        </function>
+        <function xmlns="Add()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="5" />
+        </function>
+        <function xmlns="Add()">
+          <FunctionComplexity xmlns="2" />
+          <LinesOfCode xmlns="5" />
+        </function>
+        <function xmlns="initialize()">
+          <FunctionComplexity xmlns="2" />
+          <LinesOfCode xmlns="7" />
+        </function>
+        <function xmlns="flush()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="4" />
+        </function>
+        <function xmlns="isComment()">
+          <FunctionComplexity xmlns="4" />
+          <LinesOfCode xmlns="8" />
+        </function>
+        <function xmlns="display()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="5" />
+        </function>
+        <function xmlns="displayStr()">
+          <FunctionComplexity xmlns="3" />
+          <LinesOfCode xmlns="11" />
+        </function>
+        <function xmlns="clone()">
+          <FunctionComplexity xmlns="2" />
+          <LinesOfCode xmlns="9" />
+        </function>
+        <function xmlns="remove()">
+          <FunctionComplexity xmlns="2" />
+          <LinesOfCode xmlns="9" />
+        </function>
+        <function xmlns="remove()">
+          <FunctionComplexity xmlns="2" />
+          <LinesOfCode xmlns="9" />
+        </function>
+        <function xmlns="Main()">
+          <FunctionComplexity xmlns="6" />
+          <LinesOfCode xmlns="59" />
+        </function>
+      </class>
+    </namespace>
+  </File>
+  <File xmlns="C:\Users\Saurabh Gupta\Desktop\CodeAnalyzer\Parser\Toker.cs">
+    <namespace xmlns="CStoker">
+      <class xmlns="CToker">
+        <function xmlns="CToker()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="5" />
+        </function>
+        <function xmlns="openFile()">
+          <FunctionComplexity xmlns="3" />
+          <LinesOfCode xmlns="13" />
+        </function>
+        <function xmlns="openString()">
+          <FunctionComplexity xmlns="3" />
+          <LinesOfCode xmlns="13" />
+        </function>
+        <function xmlns="close()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="4" />
+        </function>
+        <function xmlns="removeReturn()">
+          <FunctionComplexity xmlns="3" />
+          <LinesOfCode xmlns="10" />
+        </function>
+        <function xmlns="removeReturn()">
+          <FunctionComplexity xmlns="3" />
+          <LinesOfCode xmlns="10" />
+        </function>
+        <function xmlns="readLine()">
+          <FunctionComplexity xmlns="5" />
+          <LinesOfCode xmlns="21" />
+        </function>
+        <function xmlns="getLine()">
+          <FunctionComplexity xmlns="7" />
+          <LinesOfCode xmlns="30" />
+        </function>
+        <function xmlns="extract()">
+          <FunctionComplexity xmlns="10" />
+          <LinesOfCode xmlns="37" />
+        </function>
+        <function xmlns="extractDQuote()">
+          <FunctionComplexity xmlns="6" />
+          <LinesOfCode xmlns="30" />
+        </function>
+        <function xmlns="extractSQuote()">
+          <FunctionComplexity xmlns="6" />
+          <LinesOfCode xmlns="30" />
+        </function>
+        <function xmlns="extractComment()">
+          <FunctionComplexity xmlns="9" />
+          <LinesOfCode xmlns="48" />
+        </function>
+        <function xmlns="eatCComment()">
+          <FunctionComplexity xmlns="6" />
+          <LinesOfCode xmlns="31" />
+        </function>
+        <function xmlns="IsGrammarPunctuation()">
+          <FunctionComplexity xmlns="3" />
+          <LinesOfCode xmlns="8" />
+        </function>
+        <function xmlns="eatAscii()">
+          <FunctionComplexity xmlns="3" />
+          <LinesOfCode xmlns="15" />
+        </function>
+        <function xmlns="eatPunctuationChar()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="6" />
+        </function>
+        <function xmlns="fillBuffer()">
+          <FunctionComplexity xmlns="8" />
+          <LinesOfCode xmlns="28" />
+        </function>
+        <function xmlns="getTok()">
+          <FunctionComplexity xmlns="4" />
+          <LinesOfCode xmlns="13" />
+        </function>
+        <function xmlns="peekNextTok()">
+          <FunctionComplexity xmlns="3" />
+          <LinesOfCode xmlns="8" />
+        </function>
+        <function xmlns="pushBack()">
+          <FunctionComplexity xmlns="1" />
+          <LinesOfCode xmlns="4" />
+        </function>
+        <function xmlns="Main()">
+          <FunctionComplexity xmlns="15" />
+          <LinesOfCode xmlns="83" />
+        </function>
+      </class>
+    </namespace>
+  </File>
+</TypesAnalysis>

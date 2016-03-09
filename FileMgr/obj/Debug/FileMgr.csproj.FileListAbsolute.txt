@@ -1,0 +1,18 @@
+C:\su\temp\VSHelp\FileMgr\bin\Debug\FileMgr.pdb
+C:\su\temp\VSHelp\FileMgr\obj\Debug\FileMgr.pdb
+C:\su\temp\VSHelp\FileMgr\obj\Debug\FileMgr.csprojResolveAssemblyReference.cache
+C:\su\temp\VSHelp\FileMgr\bin\Debug\FileMgr.dll.config
+C:\su\temp\VSHelp\FileMgr\bin\Debug\FileMgr.dll
+C:\su\temp\VSHelp\FileMgr\obj\Debug\FileMgr.dll
+C:\Users\Saurabh Gupta\Desktop\Code Analyzer\FileMgr\bin\Debug\FileMgr.dll.config
+C:\Users\Saurabh Gupta\Desktop\Code Analyzer\FileMgr\bin\Debug\FileMgr.dll
+C:\Users\Saurabh Gupta\Desktop\Code Analyzer\FileMgr\bin\Debug\FileMgr.pdb
+C:\Users\Saurabh Gupta\Desktop\Code Analyzer\FileMgr\obj\Debug\FileMgr.dll
+C:\Users\Saurabh Gupta\Desktop\Code Analyzer\FileMgr\obj\Debug\FileMgr.pdb
+C:\Users\Saurabh Gupta\Desktop\Code Analyzer\FileMgr\obj\Debug\FileMgr.csprojResolveAssemblyReference.cache
+C:\Users\Saurabh Gupta\Desktop\CodeAnalyzer\FileMgr\bin\Debug\FileMgr.dll.config
+C:\Users\Saurabh Gupta\Desktop\CodeAnalyzer\FileMgr\bin\Debug\FileMgr.dll
+C:\Users\Saurabh Gupta\Desktop\CodeAnalyzer\FileMgr\bin\Debug\FileMgr.pdb
+C:\Users\Saurabh Gupta\Desktop\CodeAnalyzer\FileMgr\obj\Debug\FileMgr.csprojResolveAssemblyReference.cache
+C:\Users\Saurabh Gupta\Desktop\CodeAnalyzer\FileMgr\obj\Debug\FileMgr.dll
+C:\Users\Saurabh Gupta\Desktop\CodeAnalyzer\FileMgr\obj\Debug\FileMgr.pdb

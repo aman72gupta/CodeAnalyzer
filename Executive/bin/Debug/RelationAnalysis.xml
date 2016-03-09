@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<RelationAnalysis>
+  <File xmlns="C:\Users\Saurabh Gupta\Desktop\CodeAnalyzer\Parser\IRuleandAction.cs">
+    <Type xmlns="AAction">
+      <Relation xmlns="Inheritance">
+        <RelatedType xmlns="IAction" />
+      </Relation>
+      <Relation xmlns="Using">
+        <RelatedType xmlns="CSemiExp" />
+      </Relation>
+    </Type>
+    <Type xmlns="ARule">
+      <Relation xmlns="Aggregation">
+        <RelatedType xmlns="IAction" />
+      </Relation>
+      <Relation xmlns="Inheritance">
+        <RelatedType xmlns="IRule" />
+      </Relation>
+      <Relation xmlns="Using">
+        <RelatedType xmlns="IAction" />
+        <RelatedType xmlns="CSemiExp" />
+      </Relation>
+    </Type>
+  </File>
+  <File xmlns="C:\Users\Saurabh Gupta\Desktop\CodeAnalyzer\Parser\Parser.cs">
+    <Type xmlns="Parser">
+      <Relation xmlns="Aggregation">
+        <RelatedType xmlns="IRule" />
+      </Relation>
+      <Relation xmlns="Using">
+        <RelatedType xmlns="IRule" />
+        <RelatedType xmlns="CSemiExp" />
+      </Relation>
+    </Type>
+    <Type xmlns="TestParser">
+      <Relation xmlns="Aggregation">
+        <RelatedType xmlns="CSemiExp" />
+        <RelatedType xmlns="BuildCodeAnalyzer" />
+      </Relation>
+      <Relation xmlns="Composition">
+        <RelatedType xmlns="Elem" />
+      </Relation>
+    </Type>
+  </File>
+  <File xmlns="C:\Users\Saurabh Gupta\Desktop\CodeAnalyzer\Parser\RulesAndActions.cs">
+    <Type xmlns="BuildCodeAnalyzer">
+      <Relation xmlns="Aggregation">
+        <RelatedType xmlns="Repository" />
+        <RelatedType xmlns="Parser" />
+        <RelatedType xmlns="PushStack" />
+        <RelatedType xmlns="DetectNamespace" />
+        <RelatedType xmlns="DetectClass" />
+        <RelatedType xmlns="DetectFunction" />
+        <RelatedType xmlns="DetectAnonymousScope" />
+        <RelatedType xmlns="DetectLeavingScope" />
+        <RelatedType xmlns="PopStack" />
+        <RelatedType xmlns="StoreRelations" />
+        <RelatedType xmlns="DetectInheritance" />
+        <RelatedType xmlns="DetectComposition" />
+        <RelatedType xmlns="DetectAggregation" />
+        <RelatedType xmlns="DetectUsing" />
+      </Relation>
+      <Relation xmlns="Using">
+        <RelatedType xmlns="CSemiExp" />
+      </Relation>
+    </Type>
+    <Type xmlns="CheckExistingTypes">
+      <Relation xmlns="Aggregation">
+        <RelatedType xmlns="Elem" />
+      </Relation>
+      <Relation xmlns="Composition">
+        <RelatedType xmlns="Elem" />
+      </Relation>
+    </Type>
+    <Type xmlns="DetectAggregation">
+      <Relation xmlns="Aggregation">
+        <RelatedType xmlns="CSemiExp" />
+      </Relation>
+      <Relation xmlns="Inheritance">
+        <RelatedType xmlns="ARule" />
+      </Relation>
+      <Relation xmlns="Using">
+        <RelatedType xmlns="CSemiExp" />
+      </Relation>
+    </Type>
+    <Type xmlns="DetectAnonymousScope">
+      <Relation xmlns="Aggregation">
+        <RelatedType xmlns="CSemiExp" />
+      </Relation>
+      <Relation xmlns="Inheritance">
+        <RelatedType xmlns="ARule" />
+      </Relation>
+      <Relation xmlns="Using">
+        <RelatedType xmlns="CSemiExp" />
+      </Relation>
+    </Type>
+    <Type xmlns="DetectClass">
+      <Relation xmlns="Aggregation">
+        <RelatedType xmlns="CSemiExp" />
+      </Relation>
+      <Relation xmlns="Inheritance">
+        <RelatedType xmlns="ARule" />
+      </Relation>
+      <Relation xmlns="Using">
+        <RelatedType xmlns="CSemiExp" />
+      </Relation>
+    </Type>
+    <Type xmlns="DetectComposition">
+      <Relation xmlns="Aggregation">
+        <RelatedType xmlns="CSemiExp" />
+      </Relation>
+      <Relation xmlns="Composition">
+        <RelatedType xmlns="Elem" />
+      </Relation>
+      <Relation xmlns="Inheritance">
+        <RelatedType xmlns="ARule" />
+      </Relation>
+      <Relation xmlns="Using">
+        <RelatedType xmlns="CSemiExp" />
+      </Relation>
+    </Type>
+    <Type xmlns="DetectFunction">
+      <Relation xmlns="Aggregation">
+        <RelatedType xmlns="CSemiExp" />
+      </Relation>
+      <Relation xmlns="Inheritance">
+        <RelatedType xmlns="ARule" />
+      </Relation>
+      <Relation xmlns="Using">
+        <RelatedType xmlns="CSemiExp" />
+      </Relation>
+    </Type>
+    <Type xmlns="DetectInheritance">
+      <Relation xmlns="Aggregation">
+        <RelatedType xmlns="CSemiExp" />
+      </Relation>
+      <Relation xmlns="Inheritance">
+        <RelatedType xmlns="ARule" />
+      </Relation>
+      <Relation xmlns="Using">
+        <RelatedType xmlns="CSemiExp" />
+      </Relation>
+    </Type>
+    <Type xmlns="DetectLeavingScope">
+      <Relation xmlns="Inheritance">
+        <RelatedType xmlns="ARule" />
+      </Relation>
+      <Relation xmlns="Using">
+        <RelatedType xmlns="CSemiExp" />
+      </Relation>
+    </Type>
+    <Type xmlns="DetectNamespace">
+      <Relation xmlns="Aggregation">
+        <RelatedType xmlns="CSemiExp" />
+      </Relation>
+      <Relation xmlns="Inheritance">
+        <RelatedType xmlns="ARule" />
+      </Relation>
+      <Relation xmlns="Using">
+        <RelatedType xmlns="CSemiExp" />
+      </Relation>
+    </Type>
+    <Type xmlns="DetectUsing">
+      <Relation xmlns="Aggregation">
+        <RelatedType xmlns="CSemiExp" />
+      </Relation>
+      <Relation xmlns="Inheritance">
+        <RelatedType xmlns="ARule" />
+      </Relation>
+      <Relation xmlns="Using">
+        <RelatedType xmlns="CSemiExp" />
+      </Relation>
+    </Type>
+    <Type xmlns="PopStack">
+      <Relation xmlns="Aggregation">
+        <RelatedType xmlns="CSemiExp" />
+      </Relation>
+      <Relation xmlns="Composition">
+        <RelatedType xmlns="Elem" />
+      </Relation>
+      <Relation xmlns="Inheritance">
+        <RelatedType xmlns="AAction" />
+      </Relation>
+      <Relation xmlns="Using">
+        <RelatedType xmlns="Repository" />
+        <RelatedType xmlns="CSemiExp" />
+      </Relation>
+    </Type>
+    <Type xmlns="Print">
+      <Relation xmlns="Inheritance">
+        <RelatedType xmlns="AAction" />
+      </Relation>
+      <Relation xmlns="Using">
+        <RelatedType xmlns="Repository" />
+        <RelatedType xmlns="CSemiExp" />
+      </Relation>
+    </Type>
+    <Type xmlns="PrintFunction">
+      <Relation xmlns="Inheritance">
+        <RelatedType xmlns="AAction" />
+      </Relation>
+      <Relation xmlns="Using">
+        <RelatedType xmlns="Repository" />
+        <RelatedType xmlns="CSemiExp" />
+      </Relation>
+    </Type>
+    <Type xmlns="PushStack">
+      <Relation xmlns="Aggregation">
+        <RelatedType xmlns="Elem" />
+      </Relation>
+      <Relation xmlns="Composition">
+        <RelatedType xmlns="Elem" />
+      </Relation>
+      <Relation xmlns="Inheritance">
+        <RelatedType xmlns="AAction" />
+      </Relation>
+      <Relation xmlns="Using">
+        <RelatedType xmlns="Repository" />
+        <RelatedType xmlns="CSemiExp" />
+      </Relation>
+    </Type>
+    <Type xmlns="Relationships">
+      <Relation xmlns="Composition">
+        <RelatedType xmlns="Elem" />
+      </Relation>
+    </Type>
+    <Type xmlns="Repository">
+      <Relation xmlns="Aggregation">
+        <RelatedType xmlns="Elem" />
+        <RelatedType xmlns="Relationships" />
+      </Relation>
+      <Relation xmlns="Composition">
+        <RelatedType xmlns="Elem" />
+      </Relation>
+    </Type>
+    <Type xmlns="StoreRelations">
+      <Relation xmlns="Aggregation">
+        <RelatedType xmlns="Relationships" />
+      </Relation>
+      <Relation xmlns="Inheritance">
+        <RelatedType xmlns="AAction" />
+      </Relation>
+      <Relation xmlns="Using">
+        <RelatedType xmlns="Repository" />
+        <RelatedType xmlns="CSemiExp" />
+      </Relation>
+    </Type>
+  </File>
+  <File xmlns="C:\Users\Saurabh Gupta\Desktop\CodeAnalyzer\Parser\ScopeStack.cs">
+    <Type xmlns="Test">
+      <Relation xmlns="Aggregation">
+        <RelatedType xmlns="Elem" />
+      </Relation>
+      <Relation xmlns="Composition">
+        <RelatedType xmlns="Elem" />
+      </Relation>
+    </Type>
+  </File>
+  <File xmlns="C:\Users\Saurabh Gupta\Desktop\CodeAnalyzer\Parser\Semi.cs">
+    <Type xmlns="CSemiExp">
+      <Relation xmlns="Aggregation">
+        <RelatedType xmlns="CToker" />
+      </Relation>
+    </Type>
+  </File>
+</RelationAnalysis>

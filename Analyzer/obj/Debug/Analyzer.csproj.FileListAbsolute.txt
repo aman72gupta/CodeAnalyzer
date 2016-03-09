@@ -1,0 +1,30 @@
+C:\su\temp\VSHelp\Analyzer\bin\Debug\Analyzer.exe.config
+C:\su\temp\VSHelp\Analyzer\bin\Debug\Analyzer.exe
+C:\su\temp\VSHelp\Analyzer\bin\Debug\Analyzer.pdb
+C:\su\temp\VSHelp\Analyzer\bin\Debug\FileMgr.pdb
+C:\su\temp\VSHelp\Analyzer\bin\Debug\Parser.pdb
+C:\su\temp\VSHelp\Analyzer\obj\Debug\Analyzer.csprojResolveAssemblyReference.cache
+C:\su\temp\VSHelp\Analyzer\obj\Debug\Analyzer.exe
+C:\su\temp\VSHelp\Analyzer\obj\Debug\Analyzer.pdb
+C:\su\temp\VSHelp\Analyzer\bin\Debug\FileMgr.dll
+C:\su\temp\VSHelp\Analyzer\bin\Debug\Parser.dll
+C:\Users\Saurabh Gupta\Desktop\Code Analyzer\Analyzer\bin\Debug\Analyzer.dll.config
+C:\Users\Saurabh Gupta\Desktop\Code Analyzer\Analyzer\bin\Debug\Analyzer.dll
+C:\Users\Saurabh Gupta\Desktop\Code Analyzer\Analyzer\bin\Debug\Analyzer.pdb
+C:\Users\Saurabh Gupta\Desktop\Code Analyzer\Analyzer\bin\Debug\FileMgr.dll
+C:\Users\Saurabh Gupta\Desktop\Code Analyzer\Analyzer\bin\Debug\Parser.dll
+C:\Users\Saurabh Gupta\Desktop\Code Analyzer\Analyzer\bin\Debug\FileMgr.pdb
+C:\Users\Saurabh Gupta\Desktop\Code Analyzer\Analyzer\bin\Debug\Parser.pdb
+C:\Users\Saurabh Gupta\Desktop\Code Analyzer\Analyzer\obj\Debug\Analyzer.csprojResolveAssemblyReference.cache
+C:\Users\Saurabh Gupta\Desktop\Code Analyzer\Analyzer\obj\Debug\Analyzer.dll
+C:\Users\Saurabh Gupta\Desktop\Code Analyzer\Analyzer\obj\Debug\Analyzer.pdb
+C:\Users\Saurabh Gupta\Desktop\CodeAnalyzer\Analyzer\bin\Debug\Analyzer.dll.config
+C:\Users\Saurabh Gupta\Desktop\CodeAnalyzer\Analyzer\bin\Debug\Analyzer.dll
+C:\Users\Saurabh Gupta\Desktop\CodeAnalyzer\Analyzer\bin\Debug\Analyzer.pdb
+C:\Users\Saurabh Gupta\Desktop\CodeAnalyzer\Analyzer\bin\Debug\FileMgr.dll
+C:\Users\Saurabh Gupta\Desktop\CodeAnalyzer\Analyzer\bin\Debug\Parser.dll
+C:\Users\Saurabh Gupta\Desktop\CodeAnalyzer\Analyzer\bin\Debug\FileMgr.pdb
+C:\Users\Saurabh Gupta\Desktop\CodeAnalyzer\Analyzer\bin\Debug\Parser.pdb
+C:\Users\Saurabh Gupta\Desktop\CodeAnalyzer\Analyzer\obj\Debug\Analyzer.csprojResolveAssemblyReference.cache
+C:\Users\Saurabh Gupta\Desktop\CodeAnalyzer\Analyzer\obj\Debug\Analyzer.dll
+C:\Users\Saurabh Gupta\Desktop\CodeAnalyzer\Analyzer\obj\Debug\Analyzer.pdb
