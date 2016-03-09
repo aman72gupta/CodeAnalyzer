@@ -1,0 +1,17 @@
+Project Name: Code Analyzer 
+Type: Console application 
+Technology: C# and .NET framework
+
+Code Analyzer is an Analysis engine, that can be used by variety of people for several different purposes.
+Using Code Analyzer over any C# file, a user can retrieve information like
+- Function names present in the code file along with their size and complexities
+- Classes, interfaces, structs, enums and delegates present in the code
+- Relationship among classes like inheritance, aggregation, etc.
+
+All this information provided plays a vital role as deleting one file may impact other if they have some classes which inherit from the classes present in former file. Similarly information like size and complexity of function may help developers for introspecting their code.
+
+It takes input through command line or batch files.
+User provides name of file/directory over which the analysis has to be done
+Code Analyzer provides output on the command line window as well as in a XML format if user chose that option
+
+Please have a look at the README file to learn how to use/run the Code Analyzer tool.
